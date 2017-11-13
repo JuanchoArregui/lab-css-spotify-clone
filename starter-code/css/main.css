@@ -6,3 +6,68 @@ Green: #00B172
 White: #FFF
 
 */
+
+//TIPOGRAFIAS
+//las importamos online.
+//las 3 tipos que se muestran a continuación son las que mozilla muestra que tiene la web de Spotify
+@font-face {
+  font-family: "CircularSpotifyTxT-Book";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://sp-bootstrap.global.ssl.fastly.net/8.2.0/fonts/circular-book.woff2") format("woff2"), url("https://sp-bootstrap.global.ssl.fastly.net/8.2.0/fonts/circular-book.woff") format("woff");
+}
+
+@font-face {
+  font-family: "CircularSpotifyTxT-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://sp-bootstrap.global.ssl.fastly.net/8.2.0/fonts/circular-bold.woff2") format("woff2"), url("https://sp-bootstrap.global.ssl.fastly.net/8.2.0/fonts/circular-bold.woff") format("woff");
+}
+@font-face {
+  font-family: "CircularSpotifyTxT-Black";
+  font-style: normal;
+  font-weight: 900;
+  src: url("https://sp-bootstrap.global.ssl.fastly.net/8.2.0/fonts/circular-black.woff2") format("woff2"), url("https://sp-bootstrap.global.ssl.fastly.net/8.2.0/fonts/circular-black.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Circular, Helvetica, Arial, sans-serif;
+}
+
+nav {
+  padding: 15px;
+  height: 40px;
+  background-color: yellow;
+}
+
+.logo {
+  height: 40px;
+  width: 140px;
+  display: inline-block;
+  float: left;
+  background-color: red;
+  background-image: url("../images/spotify-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #3838FF;
+}
+
+nav ul {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
